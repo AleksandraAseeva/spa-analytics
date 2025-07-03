@@ -99,7 +99,7 @@ export default {
           this.errorMessage =
             typeof newVal === "string"
               ? newVal
-              : "Кажется, вы ввели некорректные данные! Для Stocks данные приходят за текущий день (UTC+3), для Sales, Incomes и Orders данные приходят за прошедший период.";
+              : "Примените фильтры! Для Stocks данные приходят за текущий день (UTC+3), для Sales, Incomes и Orders данные приходят за прошедший период.";
         } else {
           this.errorMessage = "";
         }
