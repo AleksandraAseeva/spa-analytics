@@ -13,7 +13,7 @@
             <p class="category">Категория {{ product.category }}</p>
             <p class="category">Брэнд {{ product.brand }}</p>
             <p>Склад {{ product.warehouse_name }}</p>
-            <p class="price">{{ product.price.toLocaleString() }} ₽</p>
+            <!-- <p class="price">{{ product.price.toLocaleString() }} ₽</p> -->
             <p class="stock">
               В пути к клиенту: {{ product.in_way_to_client }} шт.
             </p>
